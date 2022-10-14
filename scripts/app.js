@@ -1,3 +1,13 @@
+class User {
+  constructor(name,message,email) {
+  this.name = name;
+  this.message = message;
+  this.email = email;
+  }
+ }
+ var Fname;
+ var email;
+ var message;
 // Navigation Menu
 const navMenu = document.querySelector('.navigation');
 const navButton = document.querySelector('#navigation-button');
@@ -61,3 +71,6 @@ splide.mount();
 ScrollReveal().reveal('.about', { delay: 300 });
 ScrollReveal().reveal('.testimonials', { delay: 300 });
 ScrollReveal().reveal('.contact', { delay: 300 });
+
+
+ 

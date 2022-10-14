@@ -600,6 +600,13 @@ img {
     gap: 2rem;
     background-color: var(--color-darkest);
     padding: 4rem; }
+
+  .contact__form_wrong {
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+      background-color: var(--color-tomato);
+      padding: 4rem; }
   .contact__fields label {
     position: absolute;
     left: -9999px; }
